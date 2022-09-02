@@ -52,7 +52,7 @@ Whether you want to fail on warnings or not.
 
 Default: `false`
 
-### `helpURL`
+### `helpUrl`
 
 Link to a page explaining your commit message convention.
 
@@ -102,7 +102,7 @@ You have commit messages with errors
   },
   {
     "hash": "cb14483cbde23b61322ffb8d3fcdc87f514a3141",
-    "message": "chore: my message\n\nsome context without leading blank line",
+    "message": "chore: my message\nsome context without leading blank line",
     "valid": true,
     "errors": [],
     "warnings": ["body must have leading blank line"],
